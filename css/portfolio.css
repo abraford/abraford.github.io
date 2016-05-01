@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+* {
+  margin: 0; padding: 0;
+}
+
+section, article, header, footer, nav, aside, hgroup {
+  display: block;
+}
+
+body {
+	background-color: #e3e3e3;
+	height: 1100px;
+
+}
+
+
+#wrapper {
+  margin: 0 auto;
+  position: absolute;
+  padding: 0 5% 0 5%;
+  background-color: white;
+  margin: 5% 0 0 5%;
+  width: 970px;
+  height: 130%;
+}
+
+
+/* fonts ---------------- */
+
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	line-height: 0.9em;
+	font-size: 1.7em;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	padding: 3% 0 0 0;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-size: 0.8em;
+	text-align: right;
+}
+
+
+/* top name box ---------------- */
+
+
+#firstbox {
+	position: absolute;
+	padding: 10% 0 0 1%;
+	left: 3%;
+}
+
+#box1 {
+	border: 1px #8C001A solid;
+	height: 200px;
+	width: 200px;
+	position: relative;
+
+}
+
+#box2 {
+	border: 1px #8C001A solid;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -190px;
+	left: 10px;
+}
+
+/*
+   -ms-transform: rotate(7deg); /* IE 9 */
+/*    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+/*    transform: rotate(7deg);
+}*/
+
+#name {
+	position: relative;
+	width: 40px;
+	left: 24px;
+	top: -380px;
+}
+
+/* intro paragraph ---------------- */
+
+
+#intro {
+	position: relative;
+	left: 382px;
+	top: 100px;
+	width: 500px;
+}
+
+
+/* pages and links ---------------- */
+
+#pages {
+	position: relative;
+	left: -6%;
+	top: 140px;
+}
+
+.item {
+ 	background-color: #8C001A;
+	height: 280px;
+	width: 250px;
+	float: right;
+	margin: 0 3% 0 0%;
+
+}
+
+#row1 {
+	float: right;
+	width: 900px;
+	padding: 0 0 3% 0;
+}
+
+#row2 {
+	float: right;
+	width: 900px;
+	padding: 0 0 3% 0;
+}
+
+
+.item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 97%;
+	max-height: 97%;
+    padding: 2% 0 0 0;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+/* footer and links ---------------- */
+
+
+#box3 {
+	border: 1px #8C001A solid;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 610px;
+	left: 81%;
+
+}
+
+#box4 {
+	border: 1px #8C001A solid;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 420px;
+	left: 82%;
+}
+
+#contact {
+	position: relative;
+	width: 40px;
+	left: 89%;
+	top: 350px;
+	text-align: right;
+}
+
+
+
+
+
+

@@ -49,7 +49,6 @@ body {
 	width: 220px;
 	margin: 100px 0 0 0;
 	height: 500px;
-
 }
 
 #color3 {
@@ -156,63 +155,34 @@ a:active {
 #color4 {
 	background-color: #b41625;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 180px;
+	margin: 0;
+	height: 80px;
 
 }
-
-#color4 h2 {
-	font-size: 1.5em;
-	font-weight: 500;
-
-}
-
 
 
 #color5 {
 	background-color: #50938c;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 180px;
+	margin: 0;
+	height: 80px;
 
 }
-
-#color5 h2 {
-	font-size: 1.5em;
-	font-weight: 500;
-
-}
-
 
 #color6 {
 	background-color: #73d2c9;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 180px;
+	margin: 0;
+	height: 80px;
 }
-
-#color6 h2 {
-	font-size: 1.5em;
-	font-weight: 500;
-
-}
-
-
 
 #color7 {
 	background-color: #ffc300;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 180px;
+	margin: 0;
+	height: 80px;
 
 }
-
-#color7 h2 {
-	font-size: 1.5em;
-	font-weight: 500;
-
-}
-
 
 #resume {
 	padding: 10% 5% 10% 5%;
@@ -266,8 +236,6 @@ a:active {
 	margin: 0 0 1% 0;
 
 }
-
-
 
 /* ------ award styling --------- */
 
@@ -407,49 +375,48 @@ li {
 #color8 {
 	background-color: #b41625;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 90px;
+	margin: 0;
+	height: 200px;
 
 }
 
 #color9 {
 	background-color: #50938c;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 90px;
-
+	margin: 0;
+	height: 200px;
 
 }
 
 #color10 {
 	background-color: #73d2c9;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 90px;
+	margin: 0;
+	height: 200px;
 }
 
 #color11 {
 	background-color: #ffc300;
 	width: 220px;
-	margin: 0 0 10% 0;
-	height: 90px;
+	margin: 0;
+	height: 200px;
 
 }
 
 #color9 h2 {
-	font-size: 1.5em;
+	font-size: 2.2em;
 	font-weight: 500;
 
 }
 
 #color10 h2 {
-	font-size: 1.5em;
+	font-size: 2.2em;
 	font-weight: 500;
 
 }
 
 #color11 h2 {
-	font-size: 1.5em;
+	font-size: 2.2em;
 	font-weight: 500;
 
 }
