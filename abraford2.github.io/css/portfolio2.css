@@ -1,0 +1,799 @@
+@charset "UTF-8";
+
+* {
+  margin: 0; padding: 0;
+}
+
+section, article, header, footer, nav, aside, hgroup {
+  display: block;
+}
+
+
+
+body {
+	background-color: #A2A9AF;
+
+
+/*	background-color: #789f75; */
+
+
+}
+	
+#wrapper {
+	height: 100%;
+	width: 880px;
+	margin: 0 auto;
+
+}
+
+#color {
+	background-color: #b41625;  
+	width: 220px;
+	margin: 0;
+	height: 600px;
+	border-radius: 0 0 0 30px;
+
+}
+
+
+#color1 {
+	background-color: #50938c; 
+	width: 220px;
+	margin: 100px 0 0 0;
+	height: 500px;
+
+}
+
+#color2 {
+	background-color: #73d2c9;  
+	width: 220px;
+	margin: 100px 0 0 0;
+	height: 500px;
+}
+
+#color3 {
+	background-color: #ffc300; 
+	width: 220px;
+	margin: 100px 0 0 0;
+	height: 500px;
+	border-radius: 0 30px 0 0;
+
+}
+
+.row {
+	float: left;
+}
+
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	padding: 20% 0 3% 5%;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 5em;
+	font-weight: 300;
+	padding: 10% 0 0 3%;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	font-weight: 500;
+	padding: 0 0 0 5%;
+	line-height: 1.3em;
+}
+
+
+#color p {
+	color: white;
+}
+
+#color h1 {
+	color: white;
+
+}
+
+
+#contactpage {
+	position: relative;
+	top: 220px;
+	left: 0px;
+	width: 220px;
+	background-color: #73d2c9;
+	margin: 0;
+	height: 40%;
+	padding: 20% 0 0 0;
+
+}
+
+#contactpage h1 {
+	padding: 1% 0 0 5%;
+	font-size: 1.1em;
+}
+
+
+a:link {
+	color: white;
+    text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #101d1c;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* ------ resume --------- */
+
+
+#firsthed {
+	margin: 0 0 2% 0;
+}
+
+
+
+#wrapper2 {
+	background-color: white;
+	height: auto;
+	width: 880px;
+	margin: 0 auto;
+}
+
+
+#color4 {
+	background-color: #b41625;
+	width: 220px;
+	margin: 0;
+	height: 80px;
+
+}
+
+
+#color5 {
+	background-color: #50938c;
+	width: 220px;
+	margin: 0;
+	height: 80px;
+
+}
+
+#color6 {
+	background-color: #73d2c9;
+	width: 220px;
+	margin: 0;
+	height: 80px;
+}
+
+#color7 {
+	background-color: #ffc300;
+	width: 220px;
+	margin: 0;
+	height: 80px;
+
+}
+
+#resume {
+	padding: 10% 5% 10% 5%;
+	width: 770px;
+	margin: 0 auto;
+}
+
+#resume h1 {
+	color: black;
+	font-size: 1em;
+	padding: 5% 0 0 0;
+}
+
+
+#resume h2 {
+	color: black;
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	padding: 3% 0 0 0;
+}
+
+
+#resume a:link {
+	color: #b41625;
+	text-decoration: none;
+}
+
+#resume a:visited {
+	color: #b41625;
+	text-decoration: none;
+}
+
+#resume a:hover {
+	color: #b41625;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+#resume a:active {
+	color: #b41625;
+	text-decoration: none;
+}
+
+
+
+#resume p {
+	font-style: normal;
+	padding: 0;
+	margin: 0 0 1% 0;
+
+}
+
+/* ------ award styling --------- */
+
+
+#awards a:link {
+	text-decoration: underline;
+
+}
+
+#awards a:visited {
+	text-decoration: underline;
+}
+
+#awards a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+#awards a:active {
+	text-decoration: underline;
+}
+
+
+
+/* ------ contact links --------- */
+
+
+#contact {
+	height: 30px;
+	position: relative;
+	top: 30px;
+	width: 800px;
+	left: -10px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+li {
+	display: inline;
+	margin: 0 1% 0 0;
+
+}
+
+
+
+/* ------ Inside links --------- */
+
+
+
+
+#insidelinks a:link {
+	text-decoration: underline;
+
+}
+
+#insidelinks a:visited {
+	text-decoration: underline;
+}
+
+#insidelinks a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+#insidelinks a:active {
+	text-decoration: underline;
+}
+
+
+/* ------ NYT display --------- */
+
+
+#tops {
+	margin: 0 0 5% 0;
+}
+
+#tops h1 {
+	margin: 0 0 1% 0;
+}
+
+#timeline {
+	float: left;
+	width: 350px;
+	margin: 0 0 0 9%;
+}
+
+
+#timeline2 {
+	float: left;
+	width: 350px;
+}
+
+#timeline img {
+	width: 80%;
+}
+
+#timeline2 img {
+	width: 85%;
+}
+
+#graphic {
+	clear: both;
+}
+
+#timeline h1 {
+	margin: 0 0 5% 3%;
+}
+
+#timeline2 h1 {
+	margin: 0 0 3% 3%;
+}
+
+#hidepage {
+	display: none;
+}
+
+#hidepage2 {
+	display: none;
+}
+
+
+
+/* ------ inside page bottom links --------- */
+
+
+
+#color8 {
+	background-color: #b41625;
+	width: 220px;
+	margin: 0;
+	height: 200px;
+
+}
+
+#color9 {
+	background-color: #50938c;
+	width: 220px;
+	margin: 0;
+	height: 200px;
+
+}
+
+#color10 {
+	background-color: #73d2c9;
+	width: 220px;
+	margin: 0;
+	height: 200px;
+}
+
+#color11 {
+	background-color: #ffc300;
+	width: 220px;
+	margin: 0;
+	height: 200px;
+
+}
+
+#color9 h2 {
+	font-size: 2.2em;
+	font-weight: 500;
+
+}
+
+#color10 h2 {
+	font-size: 2.2em;
+	font-weight: 500;
+
+}
+
+#color11 h2 {
+	font-size: 2.2em;
+	font-weight: 500;
+
+}
+
+
+/* ------ footer --------- */
+
+footer {
+	text-align: center;
+	background-color: #A2A9AF;
+	clear: both;
+}
+
+footer p {
+	padding: 3% 0 0 0;
+	color: white;
+	font-size: 0.6em;
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+/* ------ phones --------- */
+
+@media all and (max-width: 520px) and (min-width: 280px) {
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	padding: 5% 0 3% 5%;
+}
+
+#lastline {
+	margin: 0 0 5% 0;
+
+}
+
+
+#color {
+	width:100%;
+	height: 100%;
+	border-radius: 0 0 0 0;
+
+}
+
+#color1 {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#color2 {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+#color3 {
+	margin: 0 0 5% 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 0 0;
+
+}
+
+#contactpage {
+	display: none;
+}
+
+#number {
+	display: none;
+}
+
+.coverp {
+	margin: 10% 0 10% 0;
+	font-size: 1.5em;
+}
+
+#hidepage {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	display: inline;
+
+}
+
+#hidepage h1 {
+	font-size: 1.3em;
+	margin: 0 0 0 0;
+}
+
+
+/* ------ resume --------- */
+
+
+#color4 {
+	width: 100%;
+	height: 50%;
+	margin: 0 0 5% 0;
+}
+
+#color5 {
+	display: none;
+}
+
+#color6 {
+	display: none;
+}
+
+#color7 {
+	display: none;
+}
+
+#color8 {
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 0 0;
+	float: right;
+
+}
+
+
+#color9 {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+#color10 {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	float: right;
+
+}
+
+#color11 {
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 0 0;
+	float: right;
+
+}
+
+
+img {
+	width: 100%;
+}
+
+#resume {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+#wrapper2 {
+	width: 95%;
+	height: 100%;
+
+}
+
+#contact {
+	width: 100%;
+	margin: 10% 0 10% 4%;
+}
+
+li {
+	display: inline;
+}
+
+#contact img {
+	width: 12%;
+	padding: 0 0 0 2%;
+
+}
+
+/* ------ NYT display --------- */
+
+
+#timeline {
+	width: 90%;
+	margin: 0;
+}
+
+
+#timeline2 {
+	width: 100%;
+}
+
+#timeline img {
+	width: 100%;
+}
+
+#timeline2 img {
+	width: 100%;
+}
+
+
+/* ------ footer --------- */
+
+
+footer {
+	padding: 0;
+}
+
+
+}
+
+
+/* ------ TABLET  --------- */
+
+
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	margin: 0 0 0 7%;
+}
+
+
+#color {
+	width: 160px;
+	height: 450px;
+
+}
+
+#color1 {
+	width: 160px;
+	height: 350px;
+
+}
+#color2 {
+	width: 160px;
+	height: 350px;
+
+
+}
+#color3 {
+	width: 160px;
+	height: 350px;
+
+}
+
+#contactpage {
+	width: 160px;
+	top: 70px;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	padding: 20% 0 3% 5%;
+}
+
+
+#wrapper2 {
+	background-color: white;
+	height: auto;
+	width: 640px;
+	margin: 0 auto;
+}
+
+
+
+#color4 {
+	width: 160px;
+}
+
+#color5 {
+	width: 160px;
+	
+}
+
+#color6 {
+	width: 160px;
+	
+}
+
+#color7 {
+	width: 160px;
+	
+}
+
+
+#color8 {
+	width: 160px;
+	
+}
+
+#color9 {
+	width: 160px;
+	
+}
+
+#color10 {
+	width: 160px;
+	
+}
+
+#color11 {
+	width: 160px;
+	
+}
+
+
+img {
+	width: 100%;
+}
+
+#resume {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+
+/* ------ NYT display --------- */
+
+
+#timeline {
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+
+
+#timeline2 {
+	float: left;
+	width: 50%;
+}
+
+#timeline img {
+	width: 90%;
+}
+
+#timeline2 img {
+	width: 100%;
+}
+
+
+
+
+#contact {
+	width: 100%;
+	margin: 0 0 0 1%;
+}
+
+#contact img {
+	width: 6%;
+	padding: 0 0 0 2%;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
